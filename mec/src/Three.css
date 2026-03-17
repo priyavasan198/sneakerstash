@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.status {
+  margin: 20px 0;
+}
+
+.controls input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.controls button {
+  padding: 6px 12px;
+  cursor: pointer;
+}

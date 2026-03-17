@@ -1,0 +1,9 @@
+.banner{
+    border: 20px;
+    color: aquamarine;
+    height: 20vh;
+    width: 20%;
+    background-color: #f0f0f0;
+     border-radius: 5px;
+      padding: 20px; 
+}

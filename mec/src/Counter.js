@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react'
+import { useState } from 'react';
 import './Counter.css';
 
 const Counter = () => {
@@ -10,10 +11,10 @@ const Counter = () => {
   }
 
   return (
-    <div style={{ textAlign: 'center' }}>
-      <h1>{count ? "true":"false"}</h1>
+    <div style={{ textAlign: 'center' }} className={count ? "box-white" : "box-dark"} >
+      <h1 className='tf'>{count ? "true":"false"}</h1>
       <div className={count ? "box-white" : "box-dark"}></div>
-      <button className='btn_Counter' onMouseOver={change}>
+      <button className='btn_Counter' onClick={change}>
         white/black
       </button>
       

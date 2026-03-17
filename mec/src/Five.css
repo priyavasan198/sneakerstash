@@ -1,0 +1,34 @@
+.container {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+.vip-section {
+  margin-top: 10px;
+}
+
+.ticket-summary {
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.regular-border {
+  border: 2px solid gray;
+}
+
+.golden-border {
+  border: 3px solid gold;
+  background-color: #fff8dc;
+}

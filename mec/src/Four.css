@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin: 15px 0;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+button {
+  padding: 6px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.warning {
+  color: red;
+  margin-top: 10px;
+}
