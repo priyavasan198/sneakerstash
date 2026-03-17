@@ -1,0 +1,50 @@
+.forgot{
+    font-size:10px;
+    color: black;
+    text-decoration:none;
+}
+.forgot:hover{
+    color: darkorchid;
+    text-decoration: underline;
+    cursor:cell;
+    font-size:smaller;
+}
+button{
+    color:aliceblue;
+    width:100px;
+    border-color: black;
+    background-color:blueviolet;
+    border-radius: 15px;
+}
+button:hover{
+    background-color:purple ;
+}
+.one{
+    background-color:khaki;
+    border-radius: 10px;
+    border-color: brown;
+}
+.two{
+    background-color:khaki;
+    border-radius: 10px;
+    border-color: brown;
+
+}
+.login{
+    border: 1px solid lavender;
+    width: 50%;
+    height: 50vh;
+    display:flex;
+    flex-direction:column ;
+    justify-content: start;
+}
+.control{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    height: 30px;
+    width:70%;
+    border-radius: 10px;
+}
